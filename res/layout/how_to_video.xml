@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <VideoView
+        android:id="@+id/how_to_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:screenOrientation="landscape"
+        android:layout_alignParentTop="true"
+    	android:layout_alignParentBottom="true"
+   		android:layout_alignParentStart="true"
+    	android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

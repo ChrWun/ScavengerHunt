@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE RelativeLayout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.menu.GameSet" >
+       
+    <Button
+        android:id="@+id/swift"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/track"
+        android:layout_alignStart="@+id/track"
+        android:layout_below="@+id/track"
+        android:paddingStart="20dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_design"
+        android:drawableStart="@drawable/swift"
+        android:drawablePadding="-30dp"
+        android:text="@string/Swift" />
+
+    <Button
+        android:id="@+id/act"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/swift"
+        android:layout_alignStart="@+id/swift"
+        android:layout_below="@+id/swift"
+        android:paddingStart="20dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_design"
+        android:drawableStart="@drawable/act"
+        android:drawablePadding="-35dp"
+        android:text="@string/Act" />
+
+    <Button
+        android:id="@+id/track"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:drawablePadding="-24dp"
+        android:paddingStart="20dp"
+        android:layout_marginTop="106dp"
+        android:background="@drawable/button_design"
+        android:drawableStart="@drawable/track"
+        android:text="@string/Track" />
+
+	<Button
+        android:id="@+id/gamehelp"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_toRightOf="@+id/act"
+        android:layout_toEndOf="@+id/act"
+        android:background="@drawable/quit_design"
+        android:text="@string/GameHelp"
+        android:textColor="#FFFFFF" />
+	
+	 <ImageButton
+        android:id="@+id/how_to_video"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_alignLeft="@+id/ImageButton01"
+        android:layout_alignTop="@+id/track"
+        android:src="@drawable/question_button" />
+
+	 <ImageButton
+	     android:id="@+id/ImageButton02"
+	     android:layout_width="40dip"
+	     android:layout_height="40dip"
+	     android:layout_alignLeft="@+id/ImageButton01"
+	     android:layout_alignTop="@+id/act"
+	     android:src="@drawable/question_button" />
+
+	 <ImageButton
+	     android:id="@+id/ImageButton01"
+	     android:layout_width="40dip"
+	     android:layout_height="40dip"
+	     android:layout_alignTop="@+id/swift"
+	     android:layout_marginRight="14dp"
+	     android:layout_toLeftOf="@+id/swift"
+	     android:src="@drawable/question_button" />
+	
+</RelativeLayout>
